@@ -9,5 +9,7 @@
 import Cocoa
 
 class VRMMetaWindowController: NSWindowController {
-    
+    var metaViewController: VRMMetaViewController {
+        return self.contentViewController as! VRMMetaViewController
+    }
 }

@@ -20,10 +20,10 @@ class VRMViewController: NSViewController {
         didSet {
             guard let controller = self.metaWindowController?.window?.contentViewController as? VRMMetaViewController else { return }
 
-            if let data = self.vrmView?.scene?.value(forKey: "VRM") as? [String: Any] {
-                //controller.metaData = data
+            if let data = self.vrmView?.scene?.value(forKey: "VRMMeta") as? [String:Any] {
+                controller.setMetadata(data)
             } else {
-                //controller.metaData = [:]
+                controller.resetMetadata()
             }
         }
     }

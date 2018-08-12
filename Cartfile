@@ -1,1 +1,2 @@
-github "magicien/GLTFSceneKit" "vrm-v0.0.5"
+github "magicien/GLTFSceneKit" "vrm-v0.0.6"
+github "magicien/VRMQuickLook" "v0.1.1"

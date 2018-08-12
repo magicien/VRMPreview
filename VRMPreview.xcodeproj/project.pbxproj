@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4914BC9121201AC9006FB1C0 /* VRMQuickLook.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4914BC8E21201A81006FB1C0 /* VRMQuickLook.qlgenerator */; };
 		492D10272119BA300005F340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492D10262119BA300005F340 /* AppDelegate.swift */; };
 		492D10292119BA300005F340 /* VRMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492D10282119BA300005F340 /* VRMViewController.swift */; };
 		492D102B2119BA320005F340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492D102A2119BA320005F340 /* Assets.xcassets */; };
@@ -21,6 +22,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4914BC9021201AAD006FB1C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/QuickLook;
+			dstSubfolderSpec = 1;
+			files = (
+				4914BC9121201AC9006FB1C0 /* VRMQuickLook.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		492D103F2119D5C20005F340 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4914BC8E21201A81006FB1C0 /* VRMQuickLook.qlgenerator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = VRMQuickLook.qlgenerator; sourceTree = "<group>"; };
 		492D10232119BA300005F340 /* VRMPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRMPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492D10262119BA300005F340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		492D10282119BA300005F340 /* VRMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRMViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +77,7 @@
 		492D101A2119BA300005F340 = {
 			isa = PBXGroup;
 			children = (
+				4914BC8E21201A81006FB1C0 /* VRMQuickLook.qlgenerator */,
 				492D103C2119D5C20005F340 /* GLTFSceneKit.framework */,
 				492D10252119BA300005F340 /* VRMPreview */,
 				492D10242119BA300005F340 /* Products */,
@@ -108,6 +121,7 @@
 				492D10202119BA300005F340 /* Frameworks */,
 				492D10212119BA300005F340 /* Resources */,
 				492D103F2119D5C20005F340 /* Embed Frameworks */,
+				4914BC9021201AAD006FB1C0 /* CopyFiles */,
 			);
 			buildRules = (
 			);

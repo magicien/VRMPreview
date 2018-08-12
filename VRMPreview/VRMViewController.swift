@@ -116,9 +116,13 @@ class VRMViewController: NSViewController {
         openPanel.begin { (response) in
             if response == .OK {
                 guard let url = openPanel.url else { return }
+
+                // self.setWindowTitle("Loading...")
+                // self.setScene(SCNScene())
                 do {
                     let sceneSource = GLTFSceneSource(url: url)
                     let scene = try sceneSource.scene()
+                    self.setWindowTitle(url.lastPathComponent)
                     self.setScene(scene)
                 } catch {
                     print("\(error.localizedDescription)")
@@ -131,6 +135,10 @@ class VRMViewController: NSViewController {
         let index = self.cameraSelect.indexOfSelectedItem
         let cameraNode = self.cameraNodes[index]
         self.vrmView!.pointOfView = cameraNode
+    }
+    
+    func setWindowTitle(_ title: String) {
+        NSApplication.shared.mainWindow?.title = title
     }
 }
 

@@ -11,6 +11,8 @@ macOS用VRMビューア
 
 1. [Releases](https://github.com/magicien/VRMPreview/releases/latest)ページから最新の「**VRMPreview_vX.X.X.dmg**」をダウンロードする。
 
+![ScreenShot2](https://raw.githubusercontent.com/magicien/VRMPreview/master/resources/screenshot2.png)
+
 2. dmg中の「VRMPreview」を「Applications」にコピーする。
 
 

@@ -1,11 +1,11 @@
 # VRMPreview
 VRM Viewer for macOS
 
+![ScreenShot](https://raw.githubusercontent.com/magicien/VRMPreview/master/resources/screenshot.png)
+
 ## System Requirements
 
 - macOS 10.13 (High Sierra) or later
-
-
 
 ## Install
 

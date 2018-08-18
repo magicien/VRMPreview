@@ -1,3 +1,5 @@
+[日本語](https://github.com/magicien/VRMPreview/blob/master/lang/README.ja.md)
+
 # VRMPreview
 VRM Viewer for macOS
 
